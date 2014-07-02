@@ -1,0 +1,38 @@
+{
+  "name": "mockmailer",
+  "version": "0.0.0",
+  "description": "Mock out nodemailer for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scriptoLLC/mockmailer"
+  },
+  "keywords": [
+    "mock",
+    "test",
+    "nodemailer",
+    "stmp",
+    "email",
+    "testing",
+    "mock",
+    "nodemailer",
+    "mail",
+    "send"
+  ],
+  "author": "Todd Kennedy <todd@scripto.cc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptoLLC/mockmailer/issues"
+  },
+  "homepage": "https://github.com/scriptoLLC/mockmailer",
+  "dependencies": {
+    "nodemailer": "^0.7.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.1",
+    "tap": "^0.4.11"
+  }
+}
