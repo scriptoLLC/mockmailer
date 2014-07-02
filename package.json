@@ -28,11 +28,9 @@
     "url": "https://github.com/scriptoLLC/mockmailer/issues"
   },
   "homepage": "https://github.com/scriptoLLC/mockmailer",
-  "dependencies": {
-    "nodemailer": "^0.7.0"
-  },
   "devDependencies": {
     "jshint": "^2.5.1",
+    "nodemailer": "^0.7.0",
     "tap": "^0.4.11"
   }
 }
