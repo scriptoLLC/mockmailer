@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/scriptoLLC/mockmailer.png)](http://travis-ci.org/scriptoLLC/mockmailer)
+
 # mockmailer
 
 A test framework agnostic mock for [nodemailer](https://github.com/andris9/Nodemailer) allowing you to test code that sends mail via nodemailer without actually sending mail.
