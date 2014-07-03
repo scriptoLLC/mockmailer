@@ -1,6 +1,6 @@
 {
   "name": "mockmailer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mock out nodemailer for testing",
   "main": "index.js",
   "scripts": {
@@ -28,11 +28,9 @@
     "url": "https://github.com/scriptoLLC/mockmailer/issues"
   },
   "homepage": "https://github.com/scriptoLLC/mockmailer",
-  "dependencies": {
-    "nodemailer": "^0.7.0"
-  },
   "devDependencies": {
     "jshint": "^2.5.1",
+    "nodemailer": "^0.7.0",
     "tap": "^0.4.11"
   }
 }
