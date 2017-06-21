@@ -1,6 +1,6 @@
 {
   "name": "mockmailer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mock out nodemailer for testing",
   "main": "index.js",
   "scripts": {
