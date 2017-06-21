@@ -30,7 +30,7 @@
   "homepage": "https://github.com/scriptoLLC/mockmailer",
   "devDependencies": {
     "jshint": "^2.5.1",
-    "nodemailer": "^0.7.0",
-    "tap": "^0.4.11"
+    "nodemailer": "^4.0.1",
+    "tap": "^10.5.1"
   }
 }
