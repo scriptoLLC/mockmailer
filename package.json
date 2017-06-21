@@ -4,7 +4,8 @@
   "description": "Mock out nodemailer for testing",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*js"
+    "test": "standard && npm run dep && tap test/*js",
+    "dep": "dependency-check . && dependency-check . --unused --no-dev"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,10 @@
   },
   "homepage": "https://github.com/scriptoLLC/mockmailer",
   "devDependencies": {
+    "dependency-check": "^2.9.1",
     "jshint": "^2.5.1",
     "nodemailer": "^4.0.1",
+    "standard": "^10.0.2",
     "tap": "^10.5.1"
   }
 }
