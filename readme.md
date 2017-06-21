@@ -2,6 +2,8 @@
 
 # mockmailer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/scriptoLLC/mockmailer.svg)](https://greenkeeper.io/)
+
 A test framework agnostic mock for [nodemailer](https://github.com/andris9/Nodemailer) allowing you to test code that sends mail via nodemailer without actually sending mail.
 
 Obviously you'll need `nodemailer` installed in your app that you're trying to test. This will use that version to prevent any oddities with two copies of nodemailer being present.
